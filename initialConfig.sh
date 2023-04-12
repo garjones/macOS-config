@@ -60,9 +60,6 @@ git config --global mergetool.sublime.trustExitCode false
 git config --global merge.tool sublime
 git mergetool -y
 
-# install keyboard driver (personal to gareth)
-brew install 1kc-razer
-
 # install azure cli
 brew install azure-cli
 
@@ -92,20 +89,29 @@ brew install sf-symbols
 #brew install flutter
 #manycam?
 
-
 # install homebrew casks - utilities
+brew install 4k-video-downloader
 brew install 1password
 brew install aerial
-brew install elgato-stream-deck
-brew install sonos
-brew install logitech-camera-settings
+brew install balenaetcher
+brew install raspberry-pi-imager
+brew install rectangle
+brew install slack
 brew install vlc
 brew install webex
 brew install zoom
-brew install slack
-brew install soundsource
-brew install rectangle
 #brew install synergy
+
+# install harware utilities (personal to gareth)
+brew install 1kc-razer
+brew install caldigit-docking-utility
+brew install elgato-stream-deck
+brew install logitech-g-hub
+brew install sonos
+brew install soundsource
+
+# install theatre software (personal to gareth)
+brew install qlab
 
 # install mac app store command-line interface
 brew install mas
