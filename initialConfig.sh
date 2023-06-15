@@ -107,6 +107,7 @@ brew install 1kc-razer
 brew install caldigit-docking-utility
 brew install elgato-stream-deck
 brew install logitech-g-hub
+brew install mouse-fix
 brew install sonos
 brew install soundsource
 
