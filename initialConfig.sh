@@ -60,8 +60,10 @@ git config --global mergetool.sublime.trustExitCode false
 git config --global merge.tool sublime
 git mergetool -y
 
-# install azure cli
+# install azure
 brew install azure-cli
+brew install Azure-Data-Studio
+brew install microsoft-azure-storage-explorer
 
 # install homebrew casks - microsoft applications
 #brew install intune-company-portal
@@ -69,7 +71,6 @@ brew install microsoft-edge
 brew install microsoft-office
 brew install microsoft-teams
 brew install microsoft-remote-desktop
-brew install microsoft-azure-storage-explorer
 brew install visual-studio-code
 brew install visual-studio-code-insiders
 brew install powershell
@@ -101,6 +102,7 @@ brew install vlc
 brew install webex
 brew install zoom
 #brew install synergy
+open https://manycam.com/
 
 # install harware utilities (personal to gareth)
 brew install 1kc-razer
@@ -113,6 +115,9 @@ brew install soundsource
 
 # install theatre software (personal to gareth)
 brew install qlab
+open https://www.etcconnect.com/Products/Consoles/Eos-Family/Eos-Ti/Software.aspx
+open https://chamsyslighting.com/pages/magicq-downloads
+open https://bitfocus.io/companion
 
 # install mac app store command-line interface
 brew install mas
