@@ -135,12 +135,13 @@ defaults write com.apple.terminal "Startup Window Settings" "GJPro"
 killall Terminal
 
 # what other programs do I normally install?
-# download command line utils
+wget https://secure.chamsys.co.uk/downloads/v1_9_5_6/magicq_mac_intel_v1_9_5_6.dmg       
+wget https://www.capture.se/Portals/0/Downloads/Archive/Capture%202023.1.10.dmg
+wget https://cdn.etcconnect.com/ETCnomad%20Eos%20Mac%203.2.8.25.zip
+wget https://s3.bitfocus.io/builds/companion/companion-mac-arm64-3.3.1+7001-stable-ee7c3daa.dmg
+wget https://github.com/docsteer/sacnview/releases/download/v2.1.3/sACNView_2.1.3.dmg
+wget https://download2.manycams.com/ManyCam.dmg  
+
+# manual downloads
 open https://developer.apple.com/download/more/
-open https://manycam.com/
-open https://www.etcconnect.com/Products/Consoles/Eos-Family/Eos-Ti/Software.aspx
-open https://chamsyslighting.com/pages/magicq-downloads
-open https://bitfocus.io/companion
-open https://www.capture.se/Portals/0/Downloads/Archive/Capture%202023.1.10.dmg
 open https://contour-design.co.uk/Contour-Multimedia-Controller-driver-macOS-Big-Sur-and-macOS-Monterey
-open https://github.com/docsteer/sacnview/releases/download/v2.1.3/sACNView_2.1.3.dmg
