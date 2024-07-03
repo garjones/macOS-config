@@ -39,6 +39,25 @@ echo 'FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"' >> ~/.zprofile
 ### is this needed? 
 ### export PATH=/opt/homebrew/bin:$PATH >> ~/.zshrc
 
+# install homebrew packages using current list stored on github
+wget https://raw.githubusercontent.com/garjones/macOS-config/main/brew_programs_list.txt
+xargs brew install < brew_programs_list.txt
+rm brew_programs_list.txt
+
+
+
+#code /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/garjones/macOS-config/main/initialConfig.sh)'
+
+
+
+
+
+
+
+
+
+
+
 
 # install wget
 brew instal wget
