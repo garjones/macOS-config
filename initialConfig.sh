@@ -36,10 +36,9 @@ echo
 # enable brew auto completion
 echo 'FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"' >> ~/.zprofile\n
 
-# add homebrew cask taps
-brew tap homebrew/cask-versions
-brew tap homebrew/cask-drivers
-brew tap homebrew/cask-fonts
+### is this needed? 
+### export PATH=/opt/homebrew/bin:$PATH >> ~/.zshrc
+
 
 # install wget
 brew instal wget
@@ -86,9 +85,6 @@ brew install firefox
 brew install beyond-compare
 brew install postman
 brew install sf-symbols
-#brew install arduino
-#brew install flutter
-#manycam?
 
 # install homebrew casks - utilities
 brew install 4k-video-downloader
@@ -101,7 +97,6 @@ brew install slack
 brew install vlc
 brew install webex
 brew install zoom
-#brew install synergy
 open https://manycam.com/
 
 # install harware utilities (personal to gareth)
