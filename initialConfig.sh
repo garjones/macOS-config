@@ -32,7 +32,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 echo
 
 # enable brew auto completion
-#echo 'FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"' >> ~/.zprofile\n
+echo 'FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"' >> ~/.zprofile
 
 # install homebrew packages using current list stored on github
 wget https://raw.githubusercontent.com/garjones/macOS-config/main/brew_programs_list.txt
