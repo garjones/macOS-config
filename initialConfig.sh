@@ -29,115 +29,19 @@ echo
 # fix homebrew paths on M1
 # need to perform check for Apple silicon
 echo "Fix Homebrew paths on Apple Silicon"
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile\n
-eval "$(/opt/homebrew/bin/brew shellenv)"\n
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval $(/opt/homebrew/bin/brew shellenv)
 echo
 
 # enable brew auto completion
-echo 'FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"' >> ~/.zprofile\n
-
-### is this needed? 
-### export PATH=/opt/homebrew/bin:$PATH >> ~/.zshrc
+#echo 'FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"' >> ~/.zprofile\n
 
 # install homebrew packages using current list stored on github
 wget https://raw.githubusercontent.com/garjones/macOS-config/main/brew_programs_list.txt
 xargs brew install < brew_programs_list.txt
 rm brew_programs_list.txt
 
-
-
-#code /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/garjones/macOS-config/main/initialConfig.sh)'
-
-
-
-
-
-
-
-
-
-
-
-
-# install wget
-brew instal wget
-
-# install svn
-brew install svn
-
-# install tldr
-brew install tldr
-
-# brew install and configure git
-brew install git
-git config --global user.name "Gareth Jones"
-git config --global user.email "gareth@gareth.com"
-git config --global credential.helper osxkeychain
-git config --global mergetool.sublime.cmd "subl -w \$MERGED"
-git config --global mergetool.sublime.trustExitCode false 
-git config --global merge.tool sublime
-git mergetool -y
-
-# install azure
-brew install azure-cli
-brew install Azure-Data-Studio
-brew install microsoft-azure-storage-explorer
-
-# install homebrew casks - microsoft applications
-#brew install intune-company-portal
-brew install microsoft-edge
-brew install microsoft-office
-brew install microsoft-teams
-brew install microsoft-remote-desktop
-brew install visual-studio-code
-brew install visual-studio-code-insiders
-brew install powershell
-
-# install homebrew casks - adobe creative cloud
-brew install adobe-creative-cloud
-
-# install homebrew casks - other web browsers
-brew install google-chrome
-brew install firefox
-
-# install homebrew casks - developer tools
-brew install beyond-compare
-brew install postman
-brew install sf-symbols
-
-# install homebrew casks - utilities
-brew install 4k-video-downloader
-brew install 1password
-brew install aerial
-brew install balenaetcher
-brew install raspberry-pi-imager
-brew install rectangle
-brew install slack
-brew install vlc
-brew install webex
-brew install zoom
-open https://manycam.com/
-
-# install harware utilities (personal to gareth)
-brew install 1kc-razer
-brew install caldigit-docking-utility
-brew install elgato-stream-deck
-brew install logitech-g-hub
-brew install mouse-fix
-brew install sonos
-brew install soundsource
-
-# install theatre software (personal to gareth)
-brew install qlab
-open https://www.etcconnect.com/Products/Consoles/Eos-Family/Eos-Ti/Software.aspx
-open https://chamsyslighting.com/pages/magicq-downloads
-open https://bitfocus.io/companion
-
-# install mac app store command-line interface
-brew install mas
-
 # install app store applications (personal to gareth)
-mas install 412529613       #Cinch                 (1.2.4)
 mas install 905953485       #NordVPN               (7.0.0)
 mas install 403304796       #iNet Network Scanner  (2.8.51)
 mas install 1037126344      #Apple Configurator 2  (2.15)
@@ -149,11 +53,6 @@ mas install 1274495053      #Microsoft To Do       (2.59)
 mas install 409203825       #Numbers               (11.2)
 mas install 497799835       #Xcode                 (13.2.1)
 
-# install fonts
-brew install font-source-sans-pro
-brew install font-montserrat
-brew install $( brew search noto | grep font | tr '\n' ' ' )
-brew install $( brew search powerline | grep font | tr '\n' ' ' )
 # use font Menlo Regular for Powerline 12
 
 # install oh-my-zsh
@@ -161,11 +60,6 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # comment out ZSH_THEME
 sed -i.bak "s/ZSH_THEME=\"robbyrussell\"/#ZSH_THEME=\"robbyrussell\"/" .zshrc
-
-# install powerlevel10k theme and omz plugins 
-brew install romkatv/powerlevel10k/powerlevel10k
-brew install zsh-syntax-highlighting
-brew install zsh-history-substring-search
 
 # configure oh-me-zsh to use powerlevel10k theme and plugins
 echo '# omz theme and plugins'                                                                      >> ~/.zshrc
@@ -240,5 +134,13 @@ defaults write com.apple.terminal "Default Window Settings" "GJPro"
 defaults write com.apple.terminal "Startup Window Settings" "GJPro"
 killall Terminal
 
+# what other programs do I normally install?
 # download command line utils
-# open https://developer.apple.com/download/more/
+open https://developer.apple.com/download/more/
+open https://manycam.com/
+open https://www.etcconnect.com/Products/Consoles/Eos-Family/Eos-Ti/Software.aspx
+open https://chamsyslighting.com/pages/magicq-downloads
+open https://bitfocus.io/companion
+open https://www.capture.se/Portals/0/Downloads/Archive/Capture%202023.1.10.dmg
+open https://contour-design.co.uk/Contour-Multimedia-Controller-driver-macOS-Big-Sur-and-macOS-Monterey
+open https://github.com/docsteer/sacnview/releases/download/v2.1.3/sACNView_2.1.3.dmg
