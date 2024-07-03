@@ -25,6 +25,7 @@ zsh-history-substring-search
 zsh-syntax-highlighting
 zstd
 1kc-razer
+1password
 4k-video-downloader
 adobe-creative-cloud
 aerial
@@ -114,6 +115,7 @@ mac-mouse-fix
 microsoft-auto-update
 microsoft-azure-storage-explorer
 microsoft-edge
+microsoft-edge@dev
 microsoft-office
 microsoft-remote-desktop
 microsoft-teams
