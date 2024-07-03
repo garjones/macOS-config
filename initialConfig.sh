@@ -26,11 +26,9 @@ echo "Installing Homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo
 
-# fix homebrew paths on M1
-# need to perform check for Apple silicon
-echo "Fix Homebrew paths on Apple Silicon"
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-eval $(/opt/homebrew/bin/brew shellenv)
+# add Homebrew to your PATH:
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/garjones/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 echo
 
 # enable brew auto completion
