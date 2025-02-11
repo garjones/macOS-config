@@ -118,7 +118,6 @@ zstd
 adobe-creative-cloud
 aerial
 angry-ip-scanner
-azure-data-studio
 balenaetcher
 beyond-compare
 caldigit-docking-utility
