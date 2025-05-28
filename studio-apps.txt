@@ -1,0 +1,37 @@
+# homebrew
+google-chrome
+google-drive
+qlab
+vlc
+wifiman
+microsoft-edge
+microsoft-office
+visual-studio-code
+
+
+# app-store
+ProjectorManager
+
+
+# motu
+MOTU Audio Tools
+MOTU Discovery
+MOTU Gen 5 System Extension
+MOTU M Series System Extension
+MOTU Pro Audio System Extension
+MOTU USB MIDI System Extension
+ClockWorks
+CueMix 5
+
+
+# not-installed
+Logic Pro X.app
+Livestream Studio
+Audio Converter Pro
+
+
+# unknown source
+Google Docs
+Google Sheets
+Google Slides
+
