@@ -6,6 +6,7 @@ applepi-baker
 balenaetcher
 beyond-compare
 caldigit-docking-utility
+claude
 claude-code
 firefox
 google-chrome@canary
