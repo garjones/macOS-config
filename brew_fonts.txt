@@ -1,4 +1,3 @@
-# fonts
 font-anonymice-powerline
 font-consolas-for-powerline
 font-dejavu-sans-mono-for-powerline
