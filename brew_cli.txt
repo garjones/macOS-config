@@ -5,9 +5,7 @@ apr
 apr-util
 aribb24
 arm-none-eabi-binutils
-arm-none-eabi-gcc@8
-avr-binutils
-avr-gcc@8
+arm-none-eabi-gcc
 avrdude
 azure-cli
 boost
@@ -40,9 +38,8 @@ gmp
 go
 graphite2
 harfbuzz
-hid_bootloader_cli
 hidapi
-icu4c@78
+icu4c
 iperf3
 isl
 jpeg-turbo
@@ -72,12 +69,11 @@ libxrender
 libyaml
 libzip
 little-cms2
-llvm@20
+llvm
 lz4
 lzo
 make
 mas
-mdloader
 mpdecimal
 mpfr
 numpy
@@ -95,11 +91,8 @@ popt
 powerlevel10k
 powershell
 protobuf
-python@3.11
-python@3.13
-python@3.14
+python
 pytorch
-qmk
 readline
 rsync
 sdl2
@@ -122,5 +115,3 @@ xz
 zsh-history-substring-search
 zsh-syntax-highlighting
 zstd
-
-
