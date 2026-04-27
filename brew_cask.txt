@@ -1,4 +1,3 @@
-# cask apps
 1password
 4k-video-downloader
 adobe-creative-cloud
