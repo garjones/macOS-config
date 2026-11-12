@@ -1,0 +1,82 @@
+1Password.app
+4K Video Downloader+.app
+Adobe Acrobat DC
+Adobe Creative Cloud
+Adobe Illustrator (Beta)
+Adobe Media Encoder (Beta)
+Adobe Photoshop (Beta)
+Adobe Premiere Pro (Beta)
+Advatek Assistant 3.app
+Arduino IDE.app
+ArmGNUToolchain
+ArtNetView.app
+Beyond Compare.app
+Blackmagic Cameras
+Blackmagic Converters
+Blackmagic Desktop Video
+Blackmagic Disk Speed Test.app
+Blackmagic Media Express.app
+Blackmagic Proxy Generator Lite.app
+Blackmagic RAW
+CalDigit_Docking_Station_Utility.app
+Claude.app
+Communicator Next.app
+Companion.app
+DaVinci Resolve
+Firefox.app
+Flighty.app
+GarageBand.app
+Google Chrome.app
+Google Docs.app
+Google Drive.app
+Google Sheets.app
+Google Slides.app
+iLok License Manager.app
+iMovie.app
+iNet Network Scanner.app
+Keynote Creator Studio.app
+MacWhisper.app
+MagicQ
+Microsoft Defender Shim.app
+Microsoft Excel.app
+Microsoft OneNote.app
+Microsoft Outlook.app
+Microsoft PowerPoint.app
+Microsoft Teams.app
+Microsoft Word.app
+NDI Access Manager.app
+NDI Discovery.app
+NDI Launcher.app
+NDI Router.app
+NDI Scan Converter.app
+NDI Test Patterns.app
+NDI Video Monitor.app
+NDI Virtual Input.app
+NordVPN.app
+Numbers Creator Studio.app
+OBS.app
+Obsidian.app
+OneDrive.app
+Pages Creator Studio.app
+Postman.app
+ProjectorManager.app
+QLab.app
+Raspberry Pi Imager.app
+Resolume Alley
+Resolume Arena
+Resolume Wire
+sACNView.app
+Safari.app
+SF Symbols.app
+SoundSource.app
+Superhuman.app
+Task Manager TMOG.app
+Utilities
+Visual Studio Code.app
+VLC.app
+WiFi Explorer 2.app
+WiFi Explorer.app
+WiFiman Desktop.app
+Wispr Flow.app
+Xcode-27.2.0.app
+zoom.us.app
