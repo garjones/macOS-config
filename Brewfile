@@ -182,25 +182,18 @@ cask "font-noto-sans-cypriot"
 cask "font-noto-sans-cypro-minoan"
 cask "font-noto-sans-deseret"
 cask "font-noto-sans-devanagari"
+cask "font-inter"
+cask "font-inter-tight"
 
 # ---------------------------------------------------------------
 # Mac App Store
 # ---------------------------------------------------------------
 mas "ArtNetView", id: 1439166791
 mas "iNet Network Scanner", id: 403304796
-
 mas "Flighty", id: 1358823008
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
-
-# ---------------------------------------------------------------
-# Optional casks that were on the old Mac but not carried over.
-# Uncomment to install.
-# ---------------------------------------------------------------
-# cask "aerial"
-# cask "sonos"
-# cask "font-inter"
-# cask "font-inter-tight"
+mas "ProjectorManager", id: 950244656
 
 # ===============================================================
 # MANUAL INSTALLS (not in Homebrew)
@@ -219,8 +212,7 @@ mas "iMovie", id: 408981434
 #   Premiere Pro (Beta)
 #
 # Blackmagic - blackmagicdesign.com/support
-#   DaVinci Resolve      (check About on the old Mac: free vs Studio.
-#                         Studio needs the Studio installer + licence key)
+#   DaVinci Resolve
 #   Desktop Video        (brings Media Express and Disk Speed Test)
 #   Converters Setup
 #   Camera Setup
@@ -230,7 +222,6 @@ mas "iMovie", id: 408981434
 #   MagicQ               (ChamSys)
 #   Advatek Assistant 3  (Advatek)
 #   Communicator Next
-#   ProjectorManager
 #
 # Comes with something else / nothing to do
 #   Google Docs, Sheets, Slides   - shortcuts added by google-drive
